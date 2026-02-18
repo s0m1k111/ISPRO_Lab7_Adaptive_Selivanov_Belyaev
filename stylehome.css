@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.obolochka {
+  width: 100%;
+  max-width: 900px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.shapka {
+  background: linear-gradient(135deg, #6a82fb, #fc5c7d);
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.kontent {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.spisok-kartochek {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.kartochka {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.knopki-v-ryad {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.bokovaya-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.menyu {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.menyu a {
+  text-decoration: none;
+  color: #333;
+  padding: 8px;
+  background: #fff;
+  border-left: 4px solid #6a82fb;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.tekst-info {
+  border: 1px solid #eee;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.knopka {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+}
+
+.sinyaya {
+  background-color: #7389f4;
+}
+.rozovaya {
+  background-color: #f48df4;
+}
+.vryad {
+  flex: 1;
+}
+
+.podval {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.soc-seti {
+  display: flex;
+  gap: 10px;
+}
+
+.soc-seti a {
+  background: #555;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 3px;
+}
